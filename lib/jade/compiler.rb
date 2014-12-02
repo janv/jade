@@ -6,7 +6,8 @@ module Jade
 
     def initialize(options={})
       @options = {
-        :compileDebug => false
+        :compileDebug => false,
+        :doctype => 'html'
       }.merge options
     end
 
